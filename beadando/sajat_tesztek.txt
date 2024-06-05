@@ -1,0 +1,56 @@
+//1
+input:
+TS JS QS KS AS
+9D 8D 7D 6D 5D
+2H 2D 4C 4S 4D
+KH KD KC KS 2D
+3H 3D 3S 8C 8D
+5H 5D 7S 7D 2C
+8H 8S 2C 9D TD
+2D 3S 4H 5C 6D
+AH KH QH JH 9H
+
+output:
+Royal flush
+Straight flush
+Full house
+Four of a kind
+Full house
+Two pairs
+One pair
+Straight
+Flush
+
+//2
+input:
+2S 3H 4D 5C 6H
+TD JD QD KD AD
+7C 7D 7S 7H 2D
+5S 5H 5D 9C 9H
+3C 3H 6S 6D 2C
+2H 3D 4S 5H 6C
+8S 9S TS JS QS
+
+output:
+Straight
+Royal flush
+Four of a kind
+Full house
+Two pairs
+Straight
+Straight flush
+
+//3
+input:
+2H 3D 5S 9C KD
+AS AD AC AH 7C
+5H 5C 6S 7D 8H
+2C 2D 3H 3S 4D
+7S 8D 9H TH JD
+
+output:
+High card
+Four of a kind
+One pair
+Two pairs
+Straight
